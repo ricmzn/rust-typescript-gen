@@ -1,0 +1,11 @@
+[package]
+name = "typescript-gen"
+version = "0.1.0"
+authors = ["Ricardo Maes <ricmzn@gmail.com>"]
+edition = "2018"
+
+[lib]
+proc_macro = true
+
+[dependencies]
+syn = "0.15"
